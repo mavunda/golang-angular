@@ -1,5 +1,6 @@
 package main
 
+
 func main() {
     r := gin.Default()
     r.NoRoute(func(c *gin.Context) {
